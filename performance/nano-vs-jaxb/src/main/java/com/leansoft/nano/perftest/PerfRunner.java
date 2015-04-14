@@ -187,10 +187,10 @@ public class PerfRunner
     
     private com.leansoft.nano.person.PersonsType getNanoPersons(int numberOfRecords) {
     	com.leansoft.nano.person.PersonsType persons = new com.leansoft.nano.person.PersonsType();
-    	persons.setPerson(new ArrayList<com.leansoft.nano.person.PersonType>());
+    	persons.person = new ArrayList<com.leansoft.nano.person.PersonType>();
 		PodamFactory factory = new PodamFactoryImpl();
 		for (int i = 0; i < numberOfRecords; i++) {
-			persons.getPerson().add(factory.manufacturePojo(com.leansoft.nano.person.PersonType.class));
+			persons.person.add(factory.manufacturePojo(com.leansoft.nano.person.PersonType.class));
 		}
 		return persons;
     }
@@ -231,7 +231,7 @@ public class PerfRunner
 		try {
 			com.leansoft.nano.person.PersonsType persons = nanoXmlReader.read(com.leansoft.nano.person.PersonsType.class, bis);
 
-			int numberOfRecords = persons.getPerson().size();
+			int numberOfRecords = persons.person.size();
 
 			long end = System.currentTimeMillis();
 
@@ -279,7 +279,7 @@ public class PerfRunner
 		try {
 			com.leansoft.nano.person.PersonsType persons = nanoJsonReader.read(com.leansoft.nano.person.PersonsType.class, bis);
 
-			int numberOfRecords = persons.getPerson().size();
+			int numberOfRecords = persons.person.size();
 
 			long end = System.currentTimeMillis();
 
