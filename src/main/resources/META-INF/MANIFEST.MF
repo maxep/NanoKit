@@ -1,0 +1,6 @@
+Specification-Title: nano-kit
+Specification-Version: 0.7.1
+Specification-Vendor: leansoft
+Implementation-Version: 0.7.1
+Implementation-Vendor: leansoft
+Implementation-Title: light web service client framework targeting android platform
