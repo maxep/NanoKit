@@ -12,6 +12,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import com.leansoft.nano.IReader;
 import com.leansoft.nano.IWriter;
 import com.leansoft.nano.NanoFactory;
+import com.leansoft.nano.R;
 import com.leansoft.nano.dom.DOMParser;
 import com.leansoft.nano.person.PersonListType;
 import com.leansoft.nano.pull.PullParser;
