@@ -57,7 +57,7 @@ Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/
 			url "https://raw.github.com/maxep/mvn-repo/snapshots"
 		}
 	}
-``
+```
 After including Nano into your project, please make sure to add following user permissions in the `AndroidManifest.xml` file for network access:
 
 ``` xml
