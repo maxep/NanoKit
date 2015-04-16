@@ -1,4 +1,8 @@
 # NanoKit
+[![CI Status](http://img.shields.io/travis/maxep/NanoKit.svg?style=flat)](https://travis-ci.org/maxep/NanoKit)
+[![npm](https://img.shields.io/npm/l/express.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![Release](http://img.shields.io/github/release/maxep/NanoKit.svg?style=flat)](https://github.com/maxep/NanoKit/releases)
+[![Issues](http://img.shields.io/github/issues/maxep/NanoKit.svg?style=flat)](https://github.com/maxep/NanoKit/issues)
 
 A light Web Service client framework targeting Android platform.
 
@@ -24,7 +28,7 @@ _[Nano](https://github.com/bulldog2011/nano) (and related projects: [mxjc](https
 You have a few options:
 
 1. Direct jar reference  
-Download latest [0.7.0 release](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/nano/0.7.0)  
+Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/nano-kit/0.7.1)  
 
 2. Include the whole source of Nano into your project
 
@@ -42,7 +46,18 @@ Download latest [0.7.0 release](https://github.com/bulldog2011/bulldog-repo/tree
 	  <url>https://raw.github.com/maxep/mvn-repo/releases</url>
 	</repository>
 ```
+4. Gradle reference
+```
+	dependencies {
+		compile 'com.leansoft:nano-kit:0.7.1-SNAPSHOT'
+	}
 
+	repositories {
+		maven {
+			url "https://raw.github.com/maxep/mvn-repo/snapshots"
+		}
+	}
+``
 After including Nano into your project, please make sure to add following user permissions in the `AndroidManifest.xml` file for network access:
 
 ``` xml
@@ -163,9 +178,10 @@ All samples are in the [sample](sample) folder, following samples are included:
 |       Version         |       Date            |       Description     |
 |-----------------------|-----------------------|-----------------------|
 |[0.7.0](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/nano/0.7.0)|April 14, 2013  |Initial release supporting SOAP/XML Web Service.|
+|[0.7.1](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/nano-kit/0.7.1)|April 16, 2015  | Upgrade to Android-15|
 
 ##Compatibility
-Nano has been verified with Android 2.2(API 8) and 2.3.6(API 10), Nano should work without problem on Android 2.2 and above although this hasn't been verified formally.
+NanoKit has been verified with Android 4.0.3(API 15).
 
 
 ##Current Limitation
