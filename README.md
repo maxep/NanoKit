@@ -50,7 +50,7 @@ Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/
 4. Gradle reference:
 	```gradle
 		dependencies {
-			compile 'com.leansoft:nano-kit:0.7.1-SNAPSHOT'
+			compile 'com.leansoft:nano-kit:0.7.1'
 		}
 	
 		repositories {
