@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/amazon-book-finder/amazon-book-finder.iml" filepath="$PROJECT_DIR$/amazon-book-finder/amazon-book-finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-movie-search-app-project/android-movie-search-app-project.iml" filepath="$PROJECT_DIR$/android-movie-search-app-project/android-movie-search-app-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barcode/barcode.iml" filepath="$PROJECT_DIR$/barcode/barcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebay-demo-app/ebay-demo-app.iml" filepath="$PROJECT_DIR$/ebay-demo-app/ebay-demo-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-amazon-product-advertising/hello-amazon-product-advertising.iml" filepath="$PROJECT_DIR$/hello-amazon-product-advertising/hello-amazon-product-advertising.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-ebay-finding/hello-ebay-finding.iml" filepath="$PROJECT_DIR$/hello-ebay-finding/hello-ebay-finding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-ebay-shopping/hello-ebay-shopping.iml" filepath="$PROJECT_DIR$/hello-ebay-shopping/hello-ebay-shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-ebay-trading/hello-ebay-trading.iml" filepath="$PROJECT_DIR$/hello-ebay-trading/hello-ebay-trading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number-converter/number-converter.iml" filepath="$PROJECT_DIR$/number-converter/number-converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample.iml" filepath="$PROJECT_DIR$/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/us-zip-validator/us-zip-validator.iml" filepath="$PROJECT_DIR$/us-zip-validator/us-zip-validator.iml" />
+    </modules>
+  </component>
+</project>
+
