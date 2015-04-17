@@ -55,7 +55,7 @@ Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/
 	
 		repositories {
 			maven {
-				url "https://raw.github.com/maxep/mvn-repo/snapshots"
+				url "https://raw.github.com/maxep/mvn-repo/releases"
 			}
 		}
 	```
