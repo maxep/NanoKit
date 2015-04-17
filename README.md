@@ -1,6 +1,6 @@
 # NanoKit
 [![CI Status](http://img.shields.io/travis/maxep/NanoKit.svg?style=flat)](https://travis-ci.org/maxep/NanoKit)
-[![npm](https://img.shields.io/npm/l/express.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![l](https://img.shields.io/hexpm/l/plug.svg)](http://opensource.org/licenses/MIT)
 [![Release](http://img.shields.io/github/release/maxep/NanoKit.svg?style=flat)](https://github.com/maxep/NanoKit/releases)
 [![Issues](http://img.shields.io/github/issues/maxep/NanoKit.svg?style=flat)](https://github.com/maxep/NanoKit/issues)
 
@@ -28,36 +28,38 @@ _[Nano](https://github.com/bulldog2011/nano) (and related projects: [mxjc](https
 You have a few options:
 
 1. Direct jar reference  
-Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/nano-kit/0.7.1)  
+Download latest [0.7.1 release](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/nano-kit/0.7.1).
 
-2. Include the whole source of Nano into your project
+2. Include the whole source of Nano into your project.
 
-3. Maven reference
+3. Maven reference:
 
-``` xml
-	<dependency>
-	  <groupId>com.leansoft</groupId>
-	  <artifactId>nano-kit</artifactId>
-	  <version>0.7.1</version>
-	</dependency>
-	
-	<repository>
-	  <id>maxep-releases</id>
-	  <url>https://raw.github.com/maxep/mvn-repo/releases</url>
-	</repository>
-```
-4. Gradle reference
-```
-	dependencies {
-		compile 'com.leansoft:nano-kit:0.7.1-SNAPSHOT'
-	}
+	```xml
+		<dependency>
+		  <groupId>com.leansoft</groupId>
+		  <artifactId>nano-kit</artifactId>
+		  <version>0.7.1</version>
+		</dependency>
+		
+		<repository>
+		  <id>maxep-releases</id>
+		  <url>https://raw.github.com/maxep/mvn-repo/releases</url>
+		</repository>
+	```
 
-	repositories {
-		maven {
-			url "https://raw.github.com/maxep/mvn-repo/snapshots"
+4. Gradle reference:
+	```gradle
+		dependencies {
+			compile 'com.leansoft:nano-kit:0.7.1-SNAPSHOT'
 		}
-	}
-```
+	
+		repositories {
+			maven {
+				url "https://raw.github.com/maxep/mvn-repo/snapshots"
+			}
+		}
+	```
+
 After including Nano into your project, please make sure to add following user permissions in the `AndroidManifest.xml` file for network access:
 
 ``` xml
