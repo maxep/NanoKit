@@ -9,7 +9,7 @@ A light Web Service client framework targeting Android platform.
 ##_Note_
 _NanoKit is initially a fork of [nano](https://github.com/bulldog2011/nano)._
 
-_[Nano](https://github.com/bulldog2011/nano) (and related projects: [mxjc](https://github.com/maxep/mxjc), [mwsc](https://github.com/maxep/mwsc) & [pico](https://github.com/maxep/pico)) has been developed by [bulldog2011](http://bulldog2011.github.com) but stayed as is from 2013. As it is very well designed and implemented, I decided to fork it and upgrade it._
+_[Nano](https://github.com/bulldog2011/nano) (and related projects: [mxjc](https://github.com/bulldog2011/mxjc), [mwsc](https://github.com/bulldog2011/mwsc) & [pico](https://github.com/bulldog2011/pico)) has been developed by [bulldog2011](http://bulldog2011.github.com) but stayed as is from 2013. As it is very well designed and implemented, I decided to fork it and upgrade it._
 
 ##Feature Highlight
 1. Support WSDL driven development, [code generator](https://github.com/maxep/max-ws) tool is provided to auto-genearte strongly typed proxy from WSDL. 
